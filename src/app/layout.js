@@ -22,7 +22,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header style={{backgroundColor:'white !important', color:'black !important', fontSize: '1.5rem' , padding:'20px'}}>Next JS Practice </header>
+        
         {children}
+
+        <footer style={{backgroundColor:'gray !important', color:'black !important', fontSize: '1.5rem' , padding:'20px'}}>Next JS Project all rights reserved xD</footer>
       </body>
     </html>
   );
