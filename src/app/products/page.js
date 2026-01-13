@@ -15,7 +15,7 @@ export default function ProductPage () {
     return(
         <div className="p-10" >
             <h1>This is the Products Page</h1>
-            <button onClick={getProducts}>Get Products</button>
+            <button className=" bg-amber-50 text-black p-2 rounded-2xl m-1 cursor-pointer " onClick={getProducts}>Get Products</button>
             <div className="flex flex-wrap w-100">
                 {Products && Products.map(item =>(
                     <Link key={item.id} href={`/products/${item.id}`} >{item.title} - {item.price} - {item.category}</Link> 
