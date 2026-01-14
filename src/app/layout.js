@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
+import Header from "./_UI/Header";
 
 
 const geistSans = Geist({
@@ -25,21 +26,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header style={{backgroundColor:'white !important', color:'black !important', fontSize: '1.5rem' , padding:'20px'}}>
-          <div className=" flex justify-around items-center">
-            <div className="flex items-center ">
-              <Image src={'/assets/logo.png'} alt='logoDB' width={50} height={50}/>
-              Next JS   Practice 
-            </div>
-            <div className=" flex gap-10">
-              <Link href={"/"}>Home</Link>
-              <Link href={"/products"}>Products</Link>
-            </div>
-            <div>
-              
-            </div>
-          </div>
-          </header>
+        <Header />
         
         {children}
 

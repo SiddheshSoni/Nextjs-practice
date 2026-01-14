@@ -37,12 +37,13 @@ const Page = () => {
     <div className="m-9 gap-2">
         <form onSubmit={submitHandler}>
             <label>Email:</label>
-            <input className=" bg-amber-50 text-black" type="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
-
+            <input className=" mb-2 bg-amber-50 text-black" type="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+            <br/>
             <label>Password:</label>
-            <input className=" bg-amber-50 text-black" type="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
+            <input className=" mb-2 bg-amber-50 text-black" type="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
+            <br/>
 
-            <button type="submit">Login</button>
+            <button className="p-2 text-black bg-amber-300 rounded-2xl " type="submit">Login</button>
         </form>
     </div>
   )

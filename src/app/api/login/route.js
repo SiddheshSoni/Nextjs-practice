@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 export async function POST(request){
     const {email, password } = await request.json();
 
-    if(email != 'sid@mail.com' || password !='qwertywasd'){
+    if(email != 'sid@mail.com' || password !='123wasd'){
         return NextResponse.json({error:"Invalid Creadentials!"}, {status:401});
     }
 
