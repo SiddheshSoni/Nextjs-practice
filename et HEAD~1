@@ -1,0 +1,47 @@
+[33mcommit ee2b9a44d638c22fab77247ed51f386f9f301d3e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: SiddheshSoni <work.siddheshsoni@gmail.com>
+Date:   Wed Jan 14 14:10:20 2026 +0530
+
+    handling static files (logo added)
+
+[33mcommit 071d22971391a8e0a1d60d6d69a88a38a11f6461[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: SiddheshSoni <work.siddheshsoni@gmail.com>
+Date:   Tue Jan 13 22:38:27 2026 +0530
+
+    handling static files (logo added)
+
+[33mcommit 9f0f7388f619b656b8f95f229dedb821545c535d[m
+Author: SiddheshSoni <work.siddheshsoni@gmail.com>
+Date:   Tue Jan 13 16:06:12 2026 +0530
+
+    handling static files
+
+[33mcommit 29b53d8730b81a2d5530622729635c3a5f9c4742[m
+Author: SiddheshSoni <work.siddheshsoni@gmail.com>
+Date:   Tue Jan 13 14:54:57 2026 +0530
+
+    data fetching API practice with Next JS(added nav)
+
+[33mcommit 01358b4bffe0a8be1de4be8dbddcc1ea8c4a91aa[m
+Author: SiddheshSoni <work.siddheshsoni@gmail.com>
+Date:   Tue Jan 13 14:48:41 2026 +0530
+
+    data fetching API practice with Next JS
+
+[33mcommit 32120e80aad044033e118b0e319172d1542b3870[m
+Author: SiddheshSoni <work.siddheshsoni@gmail.com>
+Date:   Mon Jan 12 18:21:36 2026 +0530
+
+    Layout Task
+
+[33mcommit 1e0d91c9cc274be7235916b1a38f98386ebfb1e2[m
+Author: SiddheshSoni <work.siddheshsoni@gmail.com>
+Date:   Mon Jan 12 17:57:13 2026 +0530
+
+    Normal and Dynamic Routing
+
+[33mcommit c2c04ee3917858d6a01a7d923d7ac09d75d87cf9[m
+Author: SiddheshSoni <work.siddheshsoni@gmail.com>
+Date:   Mon Jan 12 16:49:41 2026 +0530
+
+    Initial commit from Create Next App
