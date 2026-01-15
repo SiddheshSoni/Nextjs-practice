@@ -5,11 +5,11 @@ export const metadata = {
 };
 
 export default async function ProductPage() {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
-
-  const res = await fetch(`${baseUrl}/api/products`, {
+  const res = await fetch("https://dummyjson.com/products", {
     next: { revalidate: 60 },
   });
+
+  if (!res.ok) throw new Error("Failed to fetch products");
 
   const data = await res.json();
 
