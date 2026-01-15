@@ -1,5 +1,14 @@
 import Image from "next/image";
 
+export async function generateMetadata({params}) {
+    const { id } = await params;
+    const prod = await getProduct(id);
+
+    return {
+        'title': `${prod.title} `
+    }
+};
+
 const getProduct = async (id) => {
   const res = await fetch(`http://localhost:3000/api/products/${id}`, {
     next: { revalidate: 60 },
