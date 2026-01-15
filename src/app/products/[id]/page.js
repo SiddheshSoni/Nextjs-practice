@@ -10,7 +10,7 @@ export async function generateMetadata({params}) {
 };
 
 const getProduct = async (id) => {
-  const res = await fetch(`http://localhost:3000/api/products/${id}`, {
+  const res = await fetch(`/api/products/${id}`, {
     next: { revalidate: 60 },
   });
   return res.json();

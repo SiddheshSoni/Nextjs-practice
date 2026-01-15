@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 export default async function ProductPage() {
-  const res = await fetch("http://localhost:3000/api/products", {
+  const res = await fetch("/api/products", {
     next: { revalidate: 60 }
   });
   const data = await res.json();
